@@ -1,0 +1,94 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+}
+h3.header3{
+	color: white;
+	margin: 0;
+	padding: .5em;
+}
+h3.section{
+	color: #444;
+	font-weight: bold;	
+	margin: 0;
+	padding: .5em;
+	text-transform: capitalize;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+p.by{
+	padding: .5em
+}
+
+.button-wraper{
+	padding: 1em;
+}
+
+.logo-wrapper{
+	
+	padding: .25em;
+	opacity: .90;
+	width: 240px;
+}
+
+.logo-wrapper img{
+	width: 100%;
+}
+
+
+.myhead{
+	margin-top: -50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background: url(../img/shard.jpg) no-repeat;
+ 	background-size: 100%;
+	background-position: center center;
+}
+.myhead h1, .myhead h4 {
+	color: #FFF;
+}
+
+.myhead h4{
+	display: inline-block;
+	padding: .5em;
+}
+.dark{
+	background-color: #0d0e26;
+	padding: 30px 0 20px 0;
+}
+.main{
+	padding: 20px 0 20px 0;
+}
+.color{
+	background-color: #c9c1d4;
+}
+.lightT{
+	color: #9CF;
+}
+.panel-imagen{
+	margin-bottom: 2em
+}
+.social{
+	padding: 1em 0 1em .5em;
+}
+@media only screen and (min-width: 768px) {
+
+.logo-wrapper{
+	
+	padding: .25em;
+	width: 300px;
+}
+.myhead{
+	margin-top: -50px;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	background: url(../img/shard.jpg) no-repeat;
+ 	background-size: 100%;
+	background-position: center center;
+}
+}
