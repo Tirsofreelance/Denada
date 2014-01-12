@@ -2,9 +2,14 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+footer{
+	padding:2em 0;
+}
+
 h1, h2, h3, h4, h5 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: lighter;
 }
 h3.header3{
 	color: white;
@@ -19,11 +24,14 @@ h3.section{
 	text-transform: capitalize;
 }
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
 }
 p.by{
 	padding: .5em
 }
+
+
 
 .button-wraper{
 	padding: 1em;
@@ -42,7 +50,7 @@ p.by{
 
 
 .myhead{
-	margin-top: -50px;
+	margin-top: -40px;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	background: url(../img/shard.jpg) no-repeat;
@@ -76,6 +84,8 @@ p.by{
 .social{
 	padding: 1em 0 1em .5em;
 }
+
+
 @media only screen and (min-width: 768px) {
 
 .logo-wrapper{
